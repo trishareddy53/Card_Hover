@@ -20,7 +20,7 @@ h1{
     background-repeat: no-repeat;
 }
 .div2{
-    transition: transform .1.8s;
+    transition: 200ms ease;
 }
 .div2:hover{
     transform: scale(1.12);
