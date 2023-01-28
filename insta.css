@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+    background-color:lavenderblush;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.div1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 33%;
+    margin-top: 3%;
+    box-shadow: 2px 2px 30px black;
+}
+.div1:hover{
+    background-color: palevioletred;
+    background-repeat: no-repeat;
+}
+.div2{
+    transition: transform .1.8s;
+}
+.div2:hover{
+    transform: scale(1.12);
+}
+img{
+    width: 450px;
+    height: 250px;
+    padding: 20px 25px 25px 25px;
+    background-size: cover;
+}
+h3{
+    font-size: 35px;
+    padding: 35px 50px 40px 130px;
+    font-family: "Stencil Std, fantasy";
+}
+.div1:hover h3{
+    transform: rotate(-10deg);
+}
+.div1:hover .div2{
+    transform: scale(1.12);
+}
